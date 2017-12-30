@@ -10,7 +10,7 @@
  * There exists exactly one Pythagorean triplet for which a + b + c = 1000.
  * Find the product abc.
  *
- * Answer: 31875000
+ * Answer: ________  <== You fill in (you can check on Euler Project)
  */
 
 
@@ -38,16 +38,8 @@ public class Euler9 {
 
     public static int[] euler9(int perimeter) {
     
-        // aa and bb need to go only up to perimter/2, as out assumption was
-        // aa<bb<cc
-        for (int aa=1; aa<perimeter/2 ; ++aa){
-            for (int bb=aa; bb<perimeter/2; ++bb) {
-                int cc = perimeter - aa - bb;
-                if (cc>bb)
-                    if (aa*aa+bb*bb-cc*cc ==0)
-                        return (new int[] {aa,bb,cc}) ;
-            }
-        }
+        // ToDo: Your code here
+
         return (new int[3]) ;
     }
         
