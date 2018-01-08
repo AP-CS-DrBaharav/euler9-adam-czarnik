@@ -39,8 +39,18 @@ public class Euler9 {
     public static int[] euler9(int perimeter) {
     
         // ToDo: Your code here
-
-        return (new int[3]) ;
+        int[] out = new int[3];
+        for (int a=0; a<333; ++a) {
+            for (int b=a; b<1000; ++b) {
+                int c = (int) perimeter - a - b;
+                if ((a*a)+(b*b) == (c*c)) {
+                    out[0] = a;
+                    out[1] = b;
+                    out[2] = c;
+                }
+            }
+        }
+        return (out);
     }
         
     
