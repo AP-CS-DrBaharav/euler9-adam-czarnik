@@ -10,7 +10,7 @@
  * There exists exactly one Pythagorean triplet for which a + b + c = 1000.
  * Find the product abc.
  *
- * Answer: ________  <== You fill in (you can check on Euler Project)
+ * Answer: ____31875000____  <== You fill in (you can check on Euler Project)
  */
 
 
